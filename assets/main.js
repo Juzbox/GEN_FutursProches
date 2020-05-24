@@ -59,7 +59,7 @@ function Type1() {
   document.getElementsByClassName('x1')[0].innerHTML = text1;
   _PART_INDEX_X++;
 
-  if(s%18==1) {
+  if(s%35==1) {
     clearInterval(_INTERVAL_VAL_X);
     setTimeout(function() {
       _INTERVAL_VAL_X = setInterval(Delete1, 50);
@@ -97,7 +97,7 @@ function Type2() {
   document.getElementsByClassName('y1')[0].innerHTML = text2;
   _PART_INDEX++;
 
-  if(s%18 == 1) {
+  if(s%35 == 1) {
     clearInterval(_INTERVAL_VAL);
     setTimeout(function() {
       _INTERVAL_VAL= setInterval(Delete2, 50);
@@ -135,7 +135,7 @@ function Type3() {
   document.getElementsByClassName('z1')[0].innerHTML = text3;
   _PART_INDEX_Y++;
 
-  if(s%18 == 1) {
+  if(s%35 == 1) {
     clearInterval(_INTERVAL_VAL_Y);
     setTimeout(function() {
       _INTERVAL_VAL_Y= setInterval(Delete3, 50);
