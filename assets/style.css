@@ -1,7 +1,13 @@
 
 @font-face {
+/*
 font-family: 'monosb';
 src: url("MONOSB.TTF") format("truetype");
+*/
+
+font-family: 'monosb';
+src: url("Lora-VariableFont_wght.ttf") format("truetype");
+
 }
 
 
