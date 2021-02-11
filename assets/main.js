@@ -1,5 +1,7 @@
 //text("Do you think "+adjective +" "+ user + " would ever " + state + " when "+ method+"?")
 
+
+
 let data;
 let col1 = [];
 let col2 = [];
