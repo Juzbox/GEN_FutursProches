@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Flama';
     @charset "UTF-8";
-    src: url("Flama-Medium.otf") format("truetype");
+    src: url("Flama-Medium.otf") ;
 }
 
 
@@ -34,7 +34,7 @@ body {
     left: 50%;
     width: 60%;
     transform: translate(-50%, -50%);
-    font-family: monosb;
+    font-family: Flama;
     font-size: 30px;
 
 }
