@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'monosb';
-    src: url("MONOSB.TTF") format("truetype");
+    font-family: 'Flama';
+    @charset "UTF-8";
+    src: url("Flama-Medium.otf") format("truetype");
 }
 
 
