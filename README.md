@@ -1,2 +1,2 @@
-Story Generator
-https://juzbox.github.io/GEN_FutursProches/ for https://futursproches.com/
+# CID Concepts
+https://juzbox.github.io/CID_concepts/
