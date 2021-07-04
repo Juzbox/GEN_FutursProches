@@ -20,20 +20,20 @@ function setup() {
 
   for (var i = 0; i < data.getRowCount(); i++) {
     if(data.getString(i, 0) != "") {
-      col1[i] = data.getString(i, 0); //adjective
+      col1[i] = data.getString(i, 0); //person
     }
 
     if(data.getString(i, 1) != "") {
-      col2[i] = data.getString(i, 1); //state
+      col2[i] = data.getString(i, 1); //action
     }
 
     if(data.getString(i, 2) != "") {
-      col3[i] = data.getString(i, 2);//user
+      col3[i] = data.getString(i, 2);//setting
     }
 
-    if(data.getString(i, 3) != "") {
-      col4[i] = data.getString(i, 3);//method
-    }
+    // if(data.getString(i, 3) != "") {
+    //   col4[i] = data.getString(i, 3);//method
+    // }
   }
   word1 = random(col1) + " " + random(col3);
   word2 = random(col4);
